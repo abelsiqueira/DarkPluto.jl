@@ -1,0 +1,84 @@
+/*
+ * pluto-custom.css
+ * Part of https://github.com/abelsiqueira/DarkPluto.jl
+ * Copyright (C) 2021 Abel Soares Siqueira
+ *
+ * Distributed under terms of the MIT license.
+ & Colors from https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+ */
+
+/*
+*/
+
+body {
+  background: #263238 !important;
+}
+
+#title h1 {
+  color: #64B5F6 !important;
+  box-shadow: 0px -2px 10px #64B5F6;
+}
+
+#title img {
+  background-color: white;
+  padding: 2px;
+  margin: 6px;
+  border-radius: 3px;
+}
+
+#title p {
+  color: white;
+}
+
+#title li {
+  color: #64B5F6;
+}
+
+#title a {
+  color: #FB8C00;
+}
+
+#title pre, #title button {
+  color: white;
+}
+
+body > header {
+  background-color: #64B5F6;
+}
+
+pluto-output {
+  background-color: #263238;
+}
+
+pluto-output h1, pluto-output h2, pluto-output h3,
+pluto-output h4, pluto-output h5, pluto-output h6 {
+  color: #FB8C00;
+  border-bottom-color: #64B5F6;
+}
+
+pluto-output .markdown {
+  color: white;
+}
+
+pluto-shoulder {
+  transition: 200ms;
+}
+
+pluto-shoulder:hover {
+  transition: 400ms;
+  background-color: #64B5F6;
+}
+
+.cm-s-default.CodeMirror {
+  background-color: #212121;
+  color: white
+}
+
+pre {
+  color: white;
+}
+
+.pluto-table th, .pluto-table thead {
+  background-color: #424242 !important;;
+  color: #FB8C00;
+}

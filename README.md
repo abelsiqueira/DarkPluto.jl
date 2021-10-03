@@ -10,6 +10,7 @@ Currently this is just the instructions and my custom CSS.
 ```
 git clone https://github.com/fonsp/Pluto.jl
 ```
+Then `dev` into this Pluto: `cd Pluto.jl`, open your `julia`, press `]`, and `dev .`.
 
 2. Now, place `pluto-custom.css` inside `.../Pluto.jl/frontend/`.
 

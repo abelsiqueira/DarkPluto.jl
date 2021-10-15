@@ -66,7 +66,7 @@ pluto-shoulder {
 
 pluto-shoulder:hover {
   transition: 400ms;
-  background-color: #64B5F6;
+  background-color: #fb8c00;
 }
 
 .cm-s-default.CodeMirror {
@@ -81,4 +81,35 @@ pre {
 .pluto-table th, .pluto-table thead {
   background-color: #424242 !important;;
   color: #FB8C00;
+}
+
+.cm-editor {
+  background-color: #222;
+  color: white;
+}
+
+.ͼy {
+  color: #2bff5a;
+}
+
+.ͼw {
+  color: #ff0000;
+}
+
+.ͼ1 .cm-cursor {
+  border-color: #ffffff;
+}
+
+pluto-input:focus-within .cm-editor .cm-matchingBracket {
+  color: #0ff !important;
+}
+
+.cm-editor .cm-placeholder {
+  color: #fb8c00;
+}
+
+jlerror > header {
+  background-color: #fb8c00;
+  border: 1px solid #ffff00;
+  padding: 5px;
 }
